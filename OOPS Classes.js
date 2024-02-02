@@ -29,7 +29,7 @@
 
 person1.greet(); // Output: Hello, my name is Alice and I am 30 years old.
 person2.greet(); // Output: Hello, my name is Bob and I am 25 years old.
-
+console.log(Person.compareAges(person1, person2)); // Output: Alice is older than Bob.
 
 //INHERITANCE in JS
 
@@ -66,4 +66,3 @@ class Person {
   student.greet();   // Output: Hello, my name is Bob and I am 18 years old.
   student.study();   // Output: Bob is studying hard for their exams.
 
-console.log(Person.compareAges(person1, person2)); // Output: Alice is older than Bob.
